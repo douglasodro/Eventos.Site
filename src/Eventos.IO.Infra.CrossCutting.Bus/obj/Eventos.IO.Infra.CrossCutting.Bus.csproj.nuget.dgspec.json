@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "projectName": "Eventos.IO.Domain.Core",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

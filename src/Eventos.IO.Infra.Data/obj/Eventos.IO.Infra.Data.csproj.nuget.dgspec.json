@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "projectName": "Eventos.IO.Domain.Core",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "projectName": "Eventos.IO.Domain",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj",
+        "projectName": "Eventos.IO.Infra.Data",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[1.50.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

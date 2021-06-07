@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.AspNetFilters",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "autorest": {
+              "target": "Package",
+              "version": "[0.17.3, )"
+            },
+            "elmah.io.client": {
+              "target": "Package",
+              "version": "[3.0.41-pre, )"
+            },
+            "microsoft.aspnetcore.hosting.abstractions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "microsoft.aspnetcore.http.abstractions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "microsoft.aspnetcore.mvc.abstractions": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "microsoft.aspnetcore.mvc.viewfeatures": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

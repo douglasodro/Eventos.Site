@@ -1,0 +1,730 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj",
+        "projectName": "Eventos.IO.Application",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "projectName": "Eventos.IO.Domain.Core",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "projectName": "Eventos.IO.Domain",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.AspNetFilters",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "autorest": {
+              "target": "Package",
+              "version": "[0.17.3, )"
+            },
+            "elmah.io.client": {
+              "target": "Package",
+              "version": "[3.0.41-pre, )"
+            },
+            "microsoft.aspnetcore.hosting.abstractions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "microsoft.aspnetcore.http.abstractions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "microsoft.aspnetcore.mvc.abstractions": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "microsoft.aspnetcore.mvc.viewfeatures": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.Bus",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.Identity",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[1.1.0-preview4-final, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj",
+        "projectName": "Eventos.IO.Infra.CrossCutting.IoC",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj",
+        "projectName": "Eventos.IO.Infra.Data",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain.Core\\Eventos.IO.Domain.Core.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Domain\\Eventos.IO.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[1.50.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
+        "projectName": "Eventos.IO.Site",
+        "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Site\\Eventos.IO.Site.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Site\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.1": {
+            "targetAlias": "netcoreapp1.1",
+            "projectReferences": {
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Application\\Eventos.IO.Application.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.AspNetFilters\\Eventos.IO.Infra.CrossCutting.AspNetFilters.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Bus\\Eventos.IO.Infra.CrossCutting.Bus.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.Identity\\Eventos.IO.Infra.CrossCutting.Identity.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.CrossCutting.IoC\\Eventos.IO.Infra.CrossCutting.IoC.csproj"
+              },
+              "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj": {
+                "projectPath": "C:\\ProjetosGithub\\Eventos.Site\\src\\Eventos.IO.Infra.Data\\Eventos.IO.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.1": {
+          "targetAlias": "netcoreapp1.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.39-pre, )"
+            },
+            "Elmah.Io.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.21-pre, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81"
+          ],
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
